@@ -1,6 +1,6 @@
-# PlexFileMover
+# <img src="https://github.com/alyssarose05/PlexFileMover/blob/main/Images/Plex_logo_2022.svg.png" width="40" height="40"> PlexFileMover
 
-<img src="https://github.com/alyssarose05/PlexFileMover/blob/main/Images/Plex_logo_2022.svg.png" width="500" height="200">
+
 
 Do you own a large Plex server filled with hundreds or even thousands of movies/TV shows? In the Plex community, it is known that you should move each video into its own folder to keep things like subtitles and posters together. But wouldn't that take too much time?
 If you use my PlexFileMover tool, you can save _hours_ of creating and moving files, as it will do it all in minutes at most. 
