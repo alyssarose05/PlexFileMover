@@ -13,9 +13,9 @@ You would like these videos to be put into their own folders, right? Here is the
 Note that the `PlexFileMover.jar` file is purposefully left out so that you can easily find it again. Obviously, this is a _small_ example. I ran the same program on my father's Plex server with about a thousand movies and TV shows, and it took about two minutes to complete.
 
 ## Installation
-This is intended for those who have basic knowledge of terminal use. First, you will need to download an up-to-date JDK kit (Java Development Kit) so that you can run jar files in the command prompt. Find the latest <a href="https://www.oracle.com/java/technologies/downloads/#jdk21-windows">here.</a> 
+This is intended for those who have basic knowledge of terminal use. First, you will need to download an up-to-date JDK (Java Development Kit) so that you can run .jar files in the command prompt. Find the latest JDK version <a href="https://www.oracle.com/java/technologies/downloads/#jdk21-windows">here.</a> 
 
-If you've successfully installed JDK, typing `javac -version` into your terminal should give you the current version that you have:<br>
+If you've successfully installed the JDK, typing `javac -version` into your terminal should give you the current version that you have:<br>
 ![](Images/javac.png)<br>
 If you want to be extra sure, you can also make sure that you have the Java runtime environment installed with the `java -version` command:<br>
 ![](Images/java.png)<br>
