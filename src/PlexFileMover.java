@@ -14,7 +14,7 @@ public class PlexFileMover {
 		for (File file: files) {
 			if (!file.isDirectory() && !file.getName().equals("PlexFileMover.jar")) {
 				
-				// Get file paths and names without extensions
+				// Get file path without extension
 				File f = new File(dir + "/" + file.getName());
 				String path = f.getPath().replaceFirst("[.][^.]+$", "");
 				
