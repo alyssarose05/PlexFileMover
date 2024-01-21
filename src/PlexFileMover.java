@@ -17,7 +17,6 @@ public class PlexFileMover {
 				// Get file paths and names without extensions
 				File f = new File(dir + "/" + file.getName());
 				String path = f.getPath().replaceFirst("[.][^.]+$", "");
-				String name = f.getName().replaceFirst("[.][^.]+$", "");
 				
 				// Make directories and move files
 				File moved = new File(path);
