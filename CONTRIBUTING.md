@@ -1,2 +1,2 @@
-Provided that you abide by the code of conduct at all times, I will gladly take any and all constructive feedback and criticism so that this project can improve.
+Provided that you abide by the <a href="https://github.com/alyssarose05/PlexFileMover/blob/main/CODE_OF_CONDUCT.md">Code of Conduct</a> at all times, I will gladly take any and all constructive feedback and criticism so that this project can improve.
 You may contribute by submitting issues or pull requests. If you contribute, please be sure to clearly identify the changes you made or wish to make and why.
