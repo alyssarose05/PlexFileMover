@@ -8,13 +8,8 @@ import java.io.IOException;
 import java.nio.file.StandardCopyOption;
 import java.util.stream.Stream;
 
-// ArrayList
+// LIST
 import java.util.List;
-import java.util.ArrayList;
-
-// HashMap
-import java.util.HashMap;
-import java.util.Map;
 
 /** 
 	PlexFileMover: © Copyright 2026 Alyssa Ayala | ara1105
