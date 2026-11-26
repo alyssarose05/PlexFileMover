@@ -22,23 +22,37 @@ Luckily for us, PlexFileMover is *back!* And, it is easier than ever to use it. 
 
 ### <u>Java</u>
 
-At minimum, you will need to have Java installed onto your computer. Java is able to run on Windows, Mac, Linux, and Solaris. You can find and install the latest version of  Java for your device [here](https://www.java.com/en/download/manual.jsp).
+Java is the best option for **universal OS compatibility.** It is able to run on Windows, Mac, Linux, and Solaris. You will need Java installed first, but you can find and install the latest version for your device [here](https://www.java.com/en/download/manual.jsp).
 
 After Java is successfully installed, you should be able to run `.jar` files on your computer. Download the latest `.jar` file from this repository's **Releases** page, and put it directly into your media server's directory. From there, you may click on it anytime your server needs a little makeover 💅.
 
 ![running-jar.png](img/java.png)
 
-If in doubt, you may view the raw `.java` code anytime in the **src** folder, so you can know exactly what it does.
+This project is open-source, so you may view the raw `.java` code anytime in the **src** folder of this repository and know exactly what it does.
 
-### <u>Batch</u>
+### <u>Shell Script</u>
 
-**Batch files are native to Windows**, and they cannot be run on other operating systems. If you have Windows but no Java on your computer, the Batch file version is sufficient. No downloads are required to run `.bat` files on your computer, and the code is significantly less due to the ability to easily work with files.
+**Shell scripting is native to Linux-run operating systems.** Since Mac is built on Unix technology, shell scripts will run on it with no required downloads. If you have Windows, you must have a separate Linux build, or simply the latest version of <u>Git</u>, which you can get [here](https://git-scm.com/install/windows).
+
+The process may differ depending on your OS. I'm able to click on the file and run it in Windows, but it's also common to run shell scripts in the terminal. After putting the script in your server's directory, open the terminal in the same place:
+
+```
+# 1. Make the file executable
+chmod +x PlexFileMover.sh
+
+# 2. Run the script
+./PlexFileMover.sh
+```
+
+And of course, you can view the code by editing the script or through the **software** folder on this repository.
+
+### <u>Batch File</u>
+
+**Batch files are native to Windows**, and they cannot be run on other operating systems. If you have Windows but no Java on your computer, the Batch file version is sufficient. No downloads are required to run `.bat` files on your computer, though it is not nearly as popular due to its old age and lack of trust overall.
 
 The process remains the same: drag the file into your server's directory and click on it. Note that you'll see the command prompt quickly open and close, but no action is required on your part, and the same actions are carried out.
 
-
 ![batch.png](img/batch.png)
-
 
 If in doubt, you may **right click and edit** the file to see the code, so you can know exactly what it does. Alternatively, you may easily view it in the **software** folder of this repository.
 

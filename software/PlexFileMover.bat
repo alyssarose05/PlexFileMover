@@ -11,9 +11,8 @@ set "currDir=%~dp0"
 REM Loop through current directory
 for /f "delims=" %%F in ('dir /b /a-d') do (
 	
-	REM file name, with and without extension
+	REM file name without extension
 	set "fileName=%%~NF"
-	set "fileExt=%%~NXF"
 	
 	if not "!fileName!"=="PlexFileMover" ( REM Disregard PlexFileMover files
 		
